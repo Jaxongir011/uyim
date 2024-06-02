@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Fira Sans", sans-serif !important;
+}
+
+.mybrand {    
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;   
+    color: #555555;
+}
+
+ul li a {  
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 21.6px !important;   
+    color: #555555 !important;
+}
+
+footer {
+    padding: 20px 0;
+    border: 1px solid #E5E5E5;
+    background: #F8F8F8;
+}
+
+.list-group-item {
+    background: transparent;
+    border: none;
+}
+
+/* media start */
+/* col-xl */ @media(min-width: 1200px){}
+/* col-lg */ @media(min-width: 992px) and (max-width:1199px){}
+/* col-md */ @media(min-width: 768px) and (max-width:991px){}
+/* col-sm */ @media(min-width: 576px) and (max-width:767px){}
+/* col */ @media(max-width: 575px){
+    .bg_image {
+        height: 450px;
+    }
+}
+/* media end */
